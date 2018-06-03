@@ -9,7 +9,7 @@ In this short tutorial, I will show you how to call C++ code from python using [
 * `make` (or equivalent if not using Linux) (4.1)
 * `pytest`\* (3.6.0)
 
-\*`pytest` is a python module used for unit-testing andis strictly optional.  The other dependencies are required.
+\*`pytest` is a python module used for unit-testing and is strictly optional.  The other dependencies are required.
 
 ## Building the package
 From `path_to_repo`, the top directory of the project, execute the following from the command line:
