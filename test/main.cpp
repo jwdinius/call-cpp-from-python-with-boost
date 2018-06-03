@@ -24,7 +24,7 @@ int main(int argc, char **argv) {
         // use sscanf to convert inputs to doubles
         sscanf(argv[1], "%lf", &base);
         sscanf(argv[2], "%lf", &power);
-        std::cout << "User entered base = " << base << "and power = " << power << std::endl;
+        std::cout << "User entered base = " << base << " and power = " << power << std::endl;
         // use constructor with input
         pe = new Exponentiate(base);
     } else if (argc == 2) {
